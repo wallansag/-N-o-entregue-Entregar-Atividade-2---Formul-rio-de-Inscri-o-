@@ -13,7 +13,7 @@
     <p><label for="email">E-mail</label></p>
     <input type="email" id="email" name="email" required>
     <p><label for="telefone">Telefone</label></p>
-    <input type="number" id="telefone" name="telefone" required>
+    <input type="tel" id="telefone" name="telefone" required>
     <p><label for="data-nascimento">Data de Nascimento</label></p>
     <input type="date" id="data-nascimento" name="data-nascimento" required>
     <p><label for="">Gênero</label></p>
@@ -26,7 +26,20 @@
 <textarea maxlength="200">
 
 </textarea>
+<p><label>Tipo de Inscrição</label></p>
+<p><select>
+    <Option> Selecione um tipo de Inscrição</Option>
+    <option value="1">Palestrante</option>
+    <option value="2">Participante</option>
+    <option value="3">Voluntário</option>
+    <option value="4">Outro</option>
+
+
+</select></p>
+<button type="submit">Enviar</button>
+<button type="reset">Limpar</button>
 </form>    
+
    
 
 </body>
